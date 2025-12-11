@@ -4,16 +4,9 @@ title: "Relación ser humano y naturaleza"
 author: 
   - name: Colegio Interinstitucional sobre Cambio Climático (CICC)
   - name: Miguel Equihua Zamora
-
-lang: es
-
-pdf-engine: xelatex
-
-format: 
-  html: default
-  pdf: default
-  
 ---
+
+![Códice Fejérváry-Mayer](img/Page01.jpg){width=200}
 
 ## Objetivo
 
@@ -105,25 +98,39 @@ política.
 
 ¿Ven en el bajo relieve del Rey (Chalcatzingo, Morelos) algo profundamente evocativo para nuestro tema?
 
-![](../../CICC-UV/CICC-módulo-3/img/rey-de-la-cueva.jpg)
+![](img/rey-de-la-cueva.jpg){width=400 fig-align="center"}
 
-La [**pequeña edad de hielo**](https://historia.nationalgeographic.com.es/a/pequena-edad-hielo-ola-frio-que-asolo-viejo-continente_18751]), se refiere a la ola de frío qué asoló a Europa y Asia principalmente, entre los siglos XVI y XVIII (quizás hasta el XIX). Se vivieron allá condiciones climáticas con un gran descenso de las temperaturas. Dejó huellas tanto en la vida social como en la economía de todo el continente.
+La [**pequeña edad de hielo**](https://historia.nationalgeographic.com.es/a/pequena-edad-hielo-ola-frio-que-asolo-viejo-continente_18751]), se refiere a la ola de frío qué asoló a Europa y Asia que sepamos, entre los siglos XVI y XVIII (quizás hasta el XIX). Se vivieron allá condiciones climáticas con un gran descenso de las temperaturas. Dejó huellas tanto en la vida social como en la economía de todo el continente.
 
-![Del manuscrito iluminado *Très Riches Heures du Duc de Berry*, hecho probablemente entre 1412 y 1416](../../CICC-UV/CICC-módulo-3/img/Les_Très_Riches_Heures_du_duc_de_Berry_février.jpg)
+![Del manuscrito iluminado *Très Riches Heures du Duc de Berry*, hecho probablemente entre 1412 y 1416](img/Les_Très_Riches_Heures_du_duc_de_Berry_février.jpg){width=200}
 
 
 ## Tareas solicitadas
 
+Para la colaboración que les estamos pidiendo habría que hacer, por favor, lo siguiente:
+
+
+- [ ] Preparar una exposición con apoyo visual (powerpoint), enlaque expliquen lo que desee decir a lo largo de entre 40 y 50 minutos. Se pueden grabar ustedes mismos con apoyo de zoom, como si estuvieran en una video conferencia, o si lo prefieren podríamos tener una verdadera videoconferenciay grabarnos mientras charlamos.
+- [ ] Indicar una o dos referencias básicas
+- [ ] Recomendar tres o cuatro referencias de interés para profundizar en la temática.
+- [ ] Una breve semblanza biográfica
+- [ ] Una fotografía de 1200x1600pixeles (jpg o png), en arreglo vertical. Que no ocupe más de 2 megas en disco.
+- [ ] Lo antes posibe en enero 2026.
 
 ## *Estampas* para inspirar
 
-[Los Altépetl](../../CICC-UV/CICC-módulo-3/Referencias/539_R_08_historicidad_c.pdf)
-[¿Cómo eran las condiciones climáticas en la vida de Miguel decervantes?](../../CICC-UV/CICC-módulo-3/Referencias/clima%20durante%20vida%20de%20Miguel%20de%20Cervantes.pdf)
-[El altepetl nahua como paisaje](../../CICC-UV/CICC-módulo-3/Referencias/Dialnet-ElAltepetlNahuaComoPaisaje-7425612.pdf)
-[El Rey de las entrañas de la tierra al cielo. (Chalcatzingo, Morelos)](../../CICC-UV/CICC-módulo-3/Referencias/El Rey de las entrañas de la tierra al cielo. (Chalcatzingo, Morelos) - Ark. Experiencias.pdf)
-[The Global Crisis of the Seventeenth Century](../../CICC-UV/CICC-módulo-3/Referencias/Global%20Crisis%20of%20the%20Seventeenth%20Century.pdf)
-[Guerra, clima y catástrofe: una reconsideración de la crisis general del siglo XVII y de la decadencia de España](../../CICC-UV/CICC-módulo-3/Referencias/Guerra-clima-catástrofe.pdf)
-[La crisis climática es una lucha de clases](../../CICC-UV/CICC-módulo-3/Referencias/Moore-extracted-text-La-crisis-climatica-es-una-lucha-de-clases-2021-July-Jacobin-Latin-America.pdf)
+[Los Altépetl](Referencias/539_R_08_historicidad_c.pdf)
+
+[¿Cómo eran las condiciones climáticas en la vida de Miguel decervantes?](Referencias/clima%20durante%20vida%20de%20Miguel%20de%20Cervantes.pdf)
+
+[El altepetl nahua como paisaje](Referencias/Dialnet-ElAltepetlNahuaComoPaisaje-7425612.pdf)
+
+[El Rey de las entrañas de la tierra al cielo. (Chalcatzingo, Morelos)](Referencias/El Rey de las entrañas de la tierra al cielo. (Chalcatzingo, Morelos) - Ark. Experiencias.pdf)
+
+[The Global Crisis of the Seventeenth Century](Referencias/Global%20Crisis%20of%20the%20Seventeenth%20Century.pdf)
+
+[Guerra, clima y catástrofe: una reconsideración de la crisis general del siglo XVII y de la decadencia de España](Referencias/Guerra-clima-catástrofe.pdf)
+
+[La crisis climática es una lucha de clases](Referencias/Moore-extracted-text-La-crisis-climatica-es-una-lucha-de-clases-2021-July-Jacobin-Latin-America.pdf)
 
 
-## Referencias

@@ -1,6 +1,21 @@
 project:
+  type: website
+  execute-dir: file
+  output-dir: "_site/"
+  
+lang: es
+date-format: "[Xalapa, Ver.,] D [de] MMMM, YYYY"
+fig-align: center
+
+css: cicc.css
+
+website:
   title: "CICC-R-Py"
-  output-dir: _site
+  favicon: img/logo-cicc.png
 
-editor: visual
+  search: true
 
+format:
+  html:
+    theme: Yeti 
+    lightbox: true
