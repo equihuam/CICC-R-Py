@@ -1,0 +1,125 @@
+---
+title: "Relación ser humano y naturaleza"
+
+author: 
+  - name: Colegio Interinstitucional sobre Cambio Climático (CICC)
+  - name: Miguel Equihua Zamora
+
+lang: es
+
+pdf-engine: xelatex
+
+format: 
+  html: default
+  pdf: default
+  
+---
+
+## Objetivo
+
+Examinar cómo las distintas civilizaciones han interpretado y transformado sus entornos naturales, para comprender cómo es que el clima, como gran síntesis ecológica, ha influido en cosmovisiones, sistemas de conocimiento, expresiones culturales y en las vicisitudes sociales y económicas a lo largo de la historia.
+
+
+## Contexto
+
+Este es le tercer módulo del curso. En los dos módulos previos se habrán
+explorado las manifestaciones visibles del cambio climático, sus
+impactos multidimensionales y las bases biofísicas del clima. En este
+tercer bloque analizaremos las relaciones con los eventos históricos y
+expresiones culturales que surgen del vínculo entre los seres humanos y
+la biosfera. Nos interesa reconocer que los procesos que son intrínsecos
+a un planeta vivo y dinámico (incluido el clima), no han sido solo un
+escenario pasivo para el desarrollo humano, sino que han sido y siguen
+siendo, actores fundamentales que moldean culturas, economías,
+formas de habitar, de ser y estar en el planeta. En este contexto, nos
+interesa apreciar que la actual crisis climática, (en realidad
+socioambiental) es, con toda seguridad, algo que con diferencias y
+semejanzas la humanidad ya ha vivido. No se trata de algo enteramente
+nuevo. Para comenzar, queremos hacer la pregunta introspectiva sobre
+¿qué tanto nos importa o afecta el clima? lo que nos llevará a indagar
+¿cómo es que la sociedad (economía, salud, bienestar) se vincula con el
+clima? ¿tenemos al clíma en la médula de nuestras culturas? ¿podemos
+reconocer esos signos? Si logrgamos reencontramos como entes *socioecológicos*, ¿Cómo nos explicamos que se haya diluido la consciencia de esta interdependencia vital? ¿qué implicaciones tendrá esta desconexión cultural actual? ¿valdría la pena buscar reconstruir esta conciencia socioambiental? ¿qué ganaríamos? si no lo hacemos ¿qué
+perdemos?
+
+Como marco reflexivo consideraremos nuestra práctica de transformar los
+ecosistemas para hacer agricultura o construir los asentamientos en los que vivimos. ¿Cómo es que esto nos vincula con la diversidad biológica?. Claro está, además, que todo lo que hacemos requiere, finalmente, que utilicemos energía. Ya sea la de nuestros músculos, la de animales domésticos, de las corrientes de agua, del viento,
+del fuego, o del sol. La historia misma de cómo obtenemos esa energía, es
+desde luego otra forma como nos vínculamos con el entorno, con los
+ecosistemas. Las formas como algunas sociedades obtenián energía en el
+pasado ¿las habrá metido en problemas? ¿habrá provocado defradación ambiental crítica? (Mayas, Toltecas, Egipto, Mesopotamia, Nazca,Imperio Romano) Hoy parece que nuestras prácticas de uso de energía sí lo hastan haciendo. La situación la provoca nuestro enorme uso de combustibles fósiles y la degradación de los ecosistemas que dan soporte a la vida en el planeta. Si estas son ļas causas de un peligro inminente de gran magnitud ¿no sería lo inteligente buscar cambiar el rumbo? Es a lo que nos referimos como trtansición energética y es también a lo que aspira la sustentabilidad del desarrollo humano. En este bloque lo que queremos es simplemente reflexionar sobre el contexto que podría justificar buscar nuevos rumbos y renovar el espíritu creativo y el talento de los seres humanos. Transformar la preparación de los profesionales uniersitarios que diseñan y operan la producción de bienes y servicios cotidianamente. Si lo que está ocurriendo actualmente es verdaderamente una crisis socioambiental, estamos ante una encrusijada ¿qué rumbos deberíamos elegir?
+
+Queridas y queridos colegas, esos son los antecedentes de la invitación
+que les hemos hecho llegar. En particular los temas que nosotros
+imaginamos para ustedes, sujetos a sus precisiones y reorientaciones,
+son los quqe se muestran en el cuadro.
+
+
+<!-- 
+Acceso a
+[CoSustentaUV-Curso1](https://uvmx.sharepoint.com/:f:/s/co_sustenta_uv/EhThK2Q7gd1GuGUF_E7sYV8B7qTdiOQQwwVsw917icg7Gw?e=d03LuL) 
+-->
+
+
+```{r}
+#| label: tabla-participantes
+#| echo: false
+#| warning: false 
+#| out-width: "70%"
+#| fig-width: 600
+
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(gt)
+library(stringr)
+
+temas_y_ponentes <- read_excel("~/1 Nubes/OneDrive - El Instituto de Ecología/Proyecto i-Gamma/02 Cursos Gamma/CICC-UV/Registro y seguimiento de ponentes curso 1 - bloque 3.xlsx",
+                      skip = 2,  
+                      col_names = TRUE,
+                      sheet = "Bloque 3 ") |> 
+  select(1:6)
+
+temas_y_ponentes |> 
+  select(Temática, `Nombre del Ponente`) |>
+  rename_all(~ c("tema", "ponente")) |> 
+  mutate(tema = str_remove_all(tema, pattern = "[\\d\\.]*")) |> 
+  gt() |> 
+  cols_width(tema ~ pct(30), ponente ~ pct(50))
+  
+
+```
+
+A manera de estampas, les comparto algunas referencias que pueden ser
+evocadoras para lo que les proponemos construir entre todos.
+
+[El trabajo de Florescano](https://www.nexos.com.mx/?p=32923), especialmente su estudio sobre los precios del maíz, resulta enormemente revelador de como ese vínculo entre los ciclos climáticos de largo plazo, afectan la economía y la estructura misma de las sociedades. ¿Clima y hambre?
+
+¿Qué piensan de la noción nahuatl de **altépetl**? Por lo que entiendo
+su formación implicaba la interacción con los vecinos con quienes se
+competía por el control de un territorio que era relativamente escaso,
+así como por los recursos naturales de los diferentes ecosistemas que
+existían en él, lo mismo que por el control de las redes comerciales,
+por el dominio militar y por el reconocimiento de su legitimidad
+política.
+
+¿Ven en el bajo relieve del Rey (Chalcatzingo, Morelos) algo profundamente evocativo para nuestro tema?
+
+![](../../CICC-UV/CICC-módulo-3/img/rey-de-la-cueva.jpg)
+
+La [**pequeña edad de hielo**](https://historia.nationalgeographic.com.es/a/pequena-edad-hielo-ola-frio-que-asolo-viejo-continente_18751]), se refiere a la ola de frío qué asoló a Europa y Asia principalmente, entre los siglos XVI y XVIII (quizás hasta el XIX). Se vivieron allá condiciones climáticas con un gran descenso de las temperaturas. Dejó huellas tanto en la vida social como en la economía de todo el continente.
+
+![Del manuscrito iluminado *Très Riches Heures du Duc de Berry*, hecho probablemente entre 1412 y 1416](../../CICC-UV/CICC-módulo-3/img/Les_Très_Riches_Heures_du_duc_de_Berry_février.jpg)
+
+
+
+
+## Referencias
+
+[Los Altépetl](../../CICC-UV/CICC-módulo-3/Referencias/539_R_08_historicidad_c.pdf)
+[¿Cómo eran las condiciones climáticas en la vida de Miguel decervantes?](../../CICC-UV/CICC-módulo-3/Referencias/clima%20durante%20vida%20de%20Miguel%20de%20Cervantes.pdf)
+[El altepetl nahua como paisaje](../../CICC-UV/CICC-módulo-3/Referencias/Dialnet-ElAltepetlNahuaComoPaisaje-7425612.pdf)
+[El Rey de las entrañas de la tierra al cielo. (Chalcatzingo, Morelos)](../../CICC-UV/CICC-módulo-3/Referencias/El Rey de las entrañas de la tierra al cielo. (Chalcatzingo, Morelos) - Ark. Experiencias.pdf)
+[The Global Crisis of the Seventeenth Century](../../CICC-UV/CICC-módulo-3/Referencias/Global%20Crisis%20of%20the%20Seventeenth%20Century.pdf)
+[Guerra, clima y catástrofe: una reconsideración de la crisis general del siglo XVII y de la decadencia de España](../../CICC-UV/CICC-módulo-3/Referencias/Guerra-clima-catástrofe.pdf)
+[La crisis climática es una lucha de clases](../../CICC-UV/CICC-módulo-3/Referencias/Moore-extracted-text-La-crisis-climatica-es-una-lucha-de-clases-2021-July-Jacobin-Latin-America.pdf)

@@ -1,0 +1,332 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  spanish,
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{anyfontsize}
+\usepackage{multirow}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Tabla de contenidos}
+\else
+  \newcommand\contentsname{Tabla de contenidos}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Listado de Figuras}
+\else
+  \newcommand\listfigurename{Listado de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Listado de Tablas}
+\else
+  \newcommand\listtablename{Listado de Tablas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabla}
+\else
+  \newcommand\tablename{Tabla}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Listado de Listados}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Relación ser humano y naturaleza},
+  pdfauthor={Colegio Interinstitucional sobre Cambio Climático (CICC); Miguel Equihua Zamora},
+  pdflang={es},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Relación ser humano y naturaleza}
+\author{Colegio Interinstitucional sobre Cambio Climático
+(CICC) \and Miguel Equihua Zamora}
+\date{}
+\begin{document}
+\maketitle
+
+
+\subsection{Objetivo}\label{objetivo}
+
+Examinar cómo las distintas civilizaciones han interpretado y
+transformado sus entornos naturales, para comprender cómo es que el
+clima, como gran síntesis ecológica, ha influido en cosmovisiones,
+sistemas de conocimiento, expresiones culturales y en las vicisitudes
+sociales y económicas a lo largo de la historia.
+
+\subsection{Contexto}\label{contexto}
+
+Este es le tercer módulo del curso. En los dos módulos previos se habrán
+explorado las manifestaciones visibles del cambio climático, sus
+impactos multidimensionales y las bases biofísicas del clima. En este
+tercer bloque analizaremos las relaciones con los eventos históricos y
+expresiones culturales que surgen del vínculo entre los seres humanos y
+la biosfera. Nos interesa reconocer que los procesos que son intrínsecos
+a un planeta vivo y dinámico (incluido el clima), no han sido solo un
+escenario pasivo para el desarrollo humano, sino que han sido y siguen
+siendo, actores fundamentales que moldean culturas, economías, formas de
+habitar, de ser y estar en el planeta. En este contexto, nos interesa
+apreciar que la actual crisis climática, (en realidad socioambiental)
+es, con toda seguridad, algo que con diferencias y semejanzas la
+humanidad ya ha vivido. No se trata de algo enteramente nuevo. Para
+comenzar, queremos hacer la pregunta introspectiva sobre ¿qué tanto nos
+importa o afecta el clima? lo que nos llevará a indagar ¿cómo es que la
+sociedad (economía, salud, bienestar) se vincula con el clima? ¿tenemos
+al clíma en la médula de nuestras culturas? ¿podemos reconocer esos
+signos? Si logrgamos reencontramos como entes \emph{socioecológicos},
+¿Cómo nos explicamos que se haya diluido la consciencia de esta
+interdependencia vital? ¿qué implicaciones tendrá esta desconexión
+cultural actual? ¿valdría la pena buscar reconstruir esta conciencia
+socioambiental? ¿qué ganaríamos? si no lo hacemos ¿qué perdemos?
+
+Como marco reflexivo consideraremos nuestra práctica de transformar los
+ecosistemas para hacer agricultura o construir los asentamientos en los
+que vivimos. ¿Cómo es que esto nos vincula con la diversidad biológica?.
+Claro está, además, que todo lo que hacemos requiere, finalmente, que
+utilicemos energía. Ya sea la de nuestros músculos, la de animales
+domésticos, de las corrientes de agua, del viento, del fuego, o del sol.
+La historia misma de cómo obtenemos esa energía, es desde luego otra
+forma como nos vínculamos con el entorno, con los ecosistemas. Las
+formas como algunas sociedades obtenián energía en el pasado ¿las habrá
+metido en problemas? ¿habrá provocado defradación ambiental crítica?
+(Mayas, Toltecas, Egipto, Mesopotamia, Nazca,Imperio Romano) Hoy parece
+que nuestras prácticas de uso de energía sí lo hastan haciendo. La
+situación la provoca nuestro enorme uso de combustibles fósiles y la
+degradación de los ecosistemas que dan soporte a la vida en el planeta.
+Si estas son ļas causas de un peligro inminente de gran magnitud ¿no
+sería lo inteligente buscar cambiar el rumbo? Es a lo que nos referimos
+como trtansición energética y es también a lo que aspira la
+sustentabilidad del desarrollo humano. En este bloque lo que queremos es
+simplemente reflexionar sobre el contexto que podría justificar buscar
+nuevos rumbos y renovar el espíritu creativo y el talento de los seres
+humanos. Transformar la preparación de los profesionales uniersitarios
+que diseñan y operan la producción de bienes y servicios cotidianamente.
+Si lo que está ocurriendo actualmente es verdaderamente una crisis
+socioambiental, estamos ante una encrusijada ¿qué rumbos deberíamos
+elegir?
+
+Queridas y queridos colegas, esos son los antecedentes de la invitación
+que les hemos hecho llegar. En particular los temas que nosotros
+imaginamos para ustedes, sujetos a sus precisiones y reorientaciones,
+son los quqe se muestran en el cuadro.
+
+\begin{table}
+\fontsize{12.0pt}{14.4pt}\selectfont
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}>{\raggedright\arraybackslash}p{\dimexpr 0.30\linewidth -2\tabcolsep-1.5\arrayrulewidth}>{\raggedright\arraybackslash}p{\dimexpr 0.50\linewidth -2\tabcolsep-1.5\arrayrulewidth}}
+\toprule
+tema & ponente \\ 
+\midrule\addlinespace[2.5pt]
+ Cultura, clima y uso de la energía & Dra. Martha Micheline Cariño Olvera \\ 
+ Importancia del clima en la cosmovisión del desarrollo de las culturas & Dr. Fabio Flores Granados \\ 
+ Conocimiento tradicional, agricultura y biodiversidad & Dra. Rosa María González Amaro \\ 
+ Conocimiento tradicional, agricultura y biodiversidad & Dra. Ana Isabel Moreno Calles \\ 
+ Interdependencia naturaleza y sociedad & Dra. Verónica Vázquez García \\ 
+ Transformación de los entornos (ciudades y comunidades) & Dr. José Manuel Maass Moreno \\ 
+\bottomrule
+\end{tabular*}
+\end{table}
+
+A manera de estampas, les comparto algunas referencias que pueden ser
+evocadoras para lo que les proponemos construir entre todos.
+
+\href{https://www.nexos.com.mx/?p=32923}{El trabajo de Florescano},
+especialmente su estudio sobre los precios del maíz, resulta enormemente
+revelador de como ese vínculo entre los ciclos climáticos de largo
+plazo, afectan la economía y la estructura misma de las sociedades.
+¿Clima y hambre?
+
+¿Qué piensan de la noción nahuatl de \textbf{altépetl}? Por lo que
+entiendo su formación implicaba la interacción con los vecinos con
+quienes se competía por el control de un territorio que era
+relativamente escaso, así como por los recursos naturales de los
+diferentes ecosistemas que existían en él, lo mismo que por el control
+de las redes comerciales, por el dominio militar y por el reconocimiento
+de su legitimidad política.
+
+¿Ven en el bajo relieve del Rey (Chalcatzingo, Morelos) algo
+profundamente evocativo para nuestro tema?
+
+\pandocbounded{\includegraphics[keepaspectratio]{../../CICC-UV/CICC-módulo-3/img/rey-de-la-cueva.jpg}}
+
+La
+\href{https://historia.nationalgeographic.com.es/a/pequena-edad-hielo-ola-frio-que-asolo-viejo-continente_18751\%5D}{\textbf{pequeña
+edad de hielo}}, se refiere a la ola de frío qué asoló a Europa y Asia
+principalmente, entre los siglos XVI y XVIII (quizás hasta el XIX). Se
+vivieron allá condiciones climáticas con un gran descenso de las
+temperaturas. Dejó huellas tanto en la vida social como en la economía
+de todo el continente.
+
+\begin{figure}[H]
+
+{\centering \pandocbounded{\includegraphics[keepaspectratio]{../../CICC-UV/CICC-módulo-3/img/Les_Très_Riches_Heures_du_duc_de_Berry_février.jpg}}
+
+}
+
+\caption{Del manuscrito iluminado \emph{Très Riches Heures du Duc de
+Berry}, hecho probablemente entre 1412 y 1416}
+
+\end{figure}%
+
+\subsection{Referencias}\label{referencias}
+
+\href{../../CICC-UV/CICC-módulo-3/Referencias/539_R_08_historicidad_c.pdf}{Los
+Altépetl}
+\href{../../CICC-UV/CICC-módulo-3/Referencias/clima\%20durante\%20vida\%20de\%20Miguel\%20de\%20Cervantes.pdf}{¿Cómo
+eran las condiciones climáticas en la vida de Miguel decervantes?}
+\href{../../CICC-UV/CICC-módulo-3/Referencias/Dialnet-ElAltepetlNahuaComoPaisaje-7425612.pdf}{El
+altepetl nahua como paisaje}
+\href{../../CICC-UV/CICC-módulo-3/Referencias/El\%20Rey\%20de\%20las\%20entrañas\%20de\%20la\%20tierra\%20al\%20cielo.\%20(Chalcatzingo,\%20Morelos)\%20-\%20Ark.\%20Experiencias.pdf}{El
+Rey de las entrañas de la tierra al cielo. (Chalcatzingo, Morelos)}
+\href{../../CICC-UV/CICC-módulo-3/Referencias/Global\%20Crisis\%20of\%20the\%20Seventeenth\%20Century.pdf}{The
+Global Crisis of the Seventeenth Century}
+\href{../../CICC-UV/CICC-módulo-3/Referencias/Guerra-clima-catástrofe.pdf}{Guerra,
+clima y catástrofe: una reconsideración de la crisis general del siglo
+XVII y de la decadencia de España}
+\href{../../CICC-UV/CICC-módulo-3/Referencias/Moore-extracted-text-La-crisis-climatica-es-una-lucha-de-clases-2021-July-Jacobin-Latin-America.pdf}{La
+crisis climática es una lucha de clases}
+
+
+
+
+\end{document}
