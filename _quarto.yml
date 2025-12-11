@@ -19,3 +19,5 @@ format:
   html:
     theme: Yeti 
     lightbox: true
+    embed-resources: true
+    
