@@ -1,5 +1,6 @@
 project:
   title: "CICC-R-Py"
+  output-dir: _site
 
 editor: visual
 
