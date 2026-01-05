@@ -86,23 +86,26 @@ temas_y_ponentes |>
 A manera de estampas, les comparto algunas referencias que pueden ser
 evocadoras para lo que les proponemos construir entre todos.
 
-[El trabajo de Florescano](https://www.nexos.com.mx/?p=32923), especialmente su estudio sobre los precios del maíz, resulta enormemente revelador de como ese vínculo entre los ciclos climáticos de largo plazo, afectan la economía y la estructura misma de las sociedades. ¿Clima y hambre?
+[El trabajo de Florescano](https://www.nexos.com.mx/?p=32923), especialmente su estudio sobre los precios del maíz, resulta enormemente revelador de como ese vínculo entre los ciclos climáticos de largo plazo, afectan la economía y la estructura misma de las sociedades. [¿Clima y hambre?](https://nutricionenmexico.com/biblioteca/CRONOLOGIAS/Cronologia%20de%20hambrunas%20en%20Mexico.pdf)
 
-¿Qué piensan de la noción nahuatl de **altépetl**? Por lo que entiendo
-su formación implicaba la interacción con los vecinos con quienes se
-competía por el control de un territorio que era relativamente escaso,
-así como por los recursos naturales de los diferentes ecosistemas que
-existían en él, lo mismo que por el control de las redes comerciales,
-por el dominio militar y por el reconocimiento de su legitimidad
+::: {.columns}
+:::: {.column width=50%}
+¿Qué piensan de la noción nahuatl de **altépetl** (del náhuatl āltepētl, de āl- "[relativo al] agua" y tepē(tl) "cerro, montaña")? Por lo que entiendo su formación implicaba la interacción con los vecinos con quienes se competía por el control de un territorio que era relativamente escaso, así como por los recursos naturales de los diferentes ecosistemas que existían en él, lo mismo que por el control de las redes comerciales, por el dominio militar y por el reconocimiento de su legitimidad
 política.
 
 ¿Ven en el bajo relieve del Rey (Chalcatzingo, Morelos) algo profundamente evocativo para nuestro tema?
+::::
 
-![](img/rey-de-la-cueva.jpg){width=400 fig-align="center"}
+:::: {.column width=50%}
+![Bajo relieve del llamado rey de la cueva](img/rey-de-la-cueva.jpg){width=400 fig-align="center" #fig-rey}
+::::
+:::
 
+::: {layout="[1.2, 1]"}
 La [**pequeña edad de hielo**](https://historia.nationalgeographic.com.es/a/pequena-edad-hielo-ola-frio-que-asolo-viejo-continente_18751]), se refiere a la ola de frío qué asoló a Europa y Asia que sepamos, entre los siglos XVI y XVIII (quizás hasta el XIX). Se vivieron allá condiciones climáticas con un gran descenso de las temperaturas. Dejó huellas tanto en la vida social como en la economía de todo el continente.
 
-![Del manuscrito iluminado *Très Riches Heures du Duc de Berry*, hecho probablemente entre 1412 y 1416](img/Les_Très_Riches_Heures_du_duc_de_Berry_février.jpg){width=200}
+![Del manuscrito iluminado *Très Riches Heures du Duc de Berry*, hecho probablemente entre 1412 y 1416](img/Les_Très_Riches_Heures_du_duc_de_Berry_février.jpg){width=200 #fig-estampa}
+:::
 
 
 ## Tareas solicitadas
@@ -110,7 +113,7 @@ La [**pequeña edad de hielo**](https://historia.nationalgeographic.com.es/a/peq
 Para la colaboración que les estamos pidiendo habría que hacer, por favor, lo siguiente:
 
 
-- [ ] Preparar una exposición con apoyo visual (powerpoint), enlaque expliquen lo que desee decir a lo largo de entre 40 y 50 minutos. Se pueden grabar ustedes mismos con apoyo de zoom, como si estuvieran en una video conferencia, o si lo prefieren podríamos tener una verdadera videoconferenciay grabarnos mientras charlamos.
+- [ ] Preparar una exposición con apoyo visual (powerpoint), en la que expliquen lo que deseen decir a lo largo de entre 40 y 50 minutos. Se pueden grabar ustedes mismos con apoyo de Zoom, como si estuvieran en una video conferencia, o si lo prefieren podríamos tener una verdadera videoconferencia y grabarnos mientras charlamos.
 - [ ] Indicar una o dos referencias básicas
 - [ ] Recomendar tres o cuatro referencias de interés para profundizar en la temática.
 - [ ] Una breve semblanza biográfica
