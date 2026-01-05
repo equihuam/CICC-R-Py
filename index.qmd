@@ -88,26 +88,26 @@ evocadoras para lo que les proponemos construir entre todos.
 
 [El trabajo de Florescano](https://www.nexos.com.mx/?p=32923), especialmente su estudio sobre los precios del maíz, resulta enormemente revelador de como ese vínculo entre los ciclos climáticos de largo plazo, afectan la economía y la estructura misma de las sociedades. [¿Clima y hambre?](https://nutricionenmexico.com/biblioteca/CRONOLOGIAS/Cronologia%20de%20hambrunas%20en%20Mexico.pdf)
 
-::: {.columns}
-:::: {.column width=50%}
+
+
 ¿Ven en el bajo relieve del Rey (Chalcatzingo, Morelos) algo profundamente evocativo para nuestro tema?
+
+::: {.column-margin}
+![Bajo relieve del llamado rey de la cueva](img/rey-de-la-cueva.jpg){width=400 fig-align="center" #fig-rey}
+:::
 
 ¿Qué piensan de la noción nahua de **altépetl** (del náhuatl āltepētl, de āl- "[relativo al] agua" y tepē(tl) "cerro, montaña")? Por lo que entiendo su formación implicaba la interacción con los vecinos con quienes se competía por el control de un territorio que era relativamente escaso, así como por los recursos naturales de los diferentes ecosistemas que existían en él, lo mismo que por el control de las redes comerciales, por el dominio militar y por el reconocimiento de su legitimidad
 política.
 
 
-::::
-
-:::: {.column width=50%}
-![Bajo relieve del llamado rey de la cueva](img/rey-de-la-cueva.jpg){width=400 fig-align="center" #fig-rey}
-::::
-:::
-
-::: {layout="[1.2, 1]"}
 La [**pequeña edad de hielo**](https://historia.nationalgeographic.com.es/a/pequena-edad-hielo-ola-frio-que-asolo-viejo-continente_18751]), se refiere a la ola de frío qué asoló a Europa y Asia que sepamos, entre los siglos XVI y XVIII (quizás hasta el XIX). Se vivieron allá condiciones climáticas con un gran descenso de las temperaturas. Dejó huellas tanto en la vida social como en la economía de todo el continente.
 
-![Del manuscrito iluminado *Très Riches Heures du Duc de Berry*, hecho probablemente entre 1412 y 1416](img/Les_Très_Riches_Heures_du_duc_de_Berry_février.jpg){width=200 #fig-estampa}
+::: {.column-margin}
+![Manuscrito *Très Riches Heures du Duc de Berry* (probablemente entre 1412 y 1416)](img/Les_Très_Riches_Heures_du_duc_de_Berry_février.jpg){width=50 #fig-estampa}
 :::
+
+\
+\
 
 
 ## Tareas solicitadas
