@@ -2,7 +2,9 @@ project:
   type: website
   execute-dir: file
   output-dir: "_site/"
-  
+  resources: 
+    - "*.pdf"
+   
 lang: es
 date-format: "[Xalapa, Ver.,] D [de] MMMM, YYYY"
 fig-align: center

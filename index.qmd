@@ -4,6 +4,7 @@ title: "Relación ser humano y naturaleza"
 author: 
   - name: Colegio Interinstitucional sobre Cambio Climático (CICC)
   - name: Miguel Equihua Zamora
+  
 ---
 
 ![Códice Fejérváry-Mayer](img/Page01.jpg){width=200}
@@ -11,6 +12,15 @@ author:
 ## Objetivo
 
 Examinar cómo las distintas civilizaciones han interpretado y transformado sus entornos naturales, para comprender cómo es que el clima, como gran síntesis ecológica, ha influido en cosmovisiones, sistemas de conocimiento, expresiones culturales y en las vicisitudes sociales y económicas a lo largo de la historia.
+
+<!-- 
+Acceso a
+[CoSustentaUV-Curso1](https://uvmx.sharepoint.com/:f:/s/co_sustenta_uv/EhThK2Q7gd1GuGUF_E7sYV8B7qTdiOQQwwVsw917icg7Gw?e=d03LuL) 
+
+\{\{\< downloadthis image.png \>\}\}
+-->
+
+{{< downloadthis _descargas/colaboracincursocambioclimtico.zip dname = "cicc-docs-apoyo.zip" label = "Descarga docs CICC" type = "success" icon = "cloud-download " >}}
 
 
 ## Contexto
@@ -26,8 +36,8 @@ escenario pasivo para el desarrollo humano, sino que han sido y siguen
 siendo, actores fundamentales que moldean culturas, economías,
 formas de habitar, de ser y estar en el planeta. En este contexto, nos
 interesa apreciar que la actual crisis climática, (en realidad
-socioambiental) es, con toda seguridad, algo que con diferencias y
-semejanzas la humanidad ya ha vivido. No se trata de algo enteramente
+socioambiental) es con toda seguridad algo que, con diferencias pero también
+semejanzas, la humanidad ya ha vivido. No se trata de algo enteramente
 nuevo. Para comenzar, queremos hacer la pregunta introspectiva sobre
 ¿qué tanto nos importa o afecta el clima? lo que nos llevará a indagar
 ¿cómo es que la sociedad (economía, salud, bienestar) se vincula con el
@@ -47,11 +57,6 @@ que les hemos hecho llegar. En particular los temas que nosotros
 imaginamos para ustedes, sujetos a sus precisiones y reorientaciones,
 son los que se muestran en el cuadro.
 
-
-<!-- 
-Acceso a
-[CoSustentaUV-Curso1](https://uvmx.sharepoint.com/:f:/s/co_sustenta_uv/EhThK2Q7gd1GuGUF_E7sYV8B7qTdiOQQwwVsw917icg7Gw?e=d03LuL) 
--->
 
 
 ```{r}
@@ -87,7 +92,6 @@ A manera de estampas, les comparto algunas referencias que pueden ser
 evocadoras para lo que les proponemos construir entre todos.
 
 [El trabajo de Florescano](https://www.nexos.com.mx/?p=32923), especialmente su estudio sobre los precios del maíz, resulta enormemente revelador de como ese vínculo entre los ciclos climáticos de largo plazo, afectan la economía y la estructura misma de las sociedades. [¿Clima y hambre?](https://nutricionenmexico.com/biblioteca/CRONOLOGIAS/Cronologia%20de%20hambrunas%20en%20Mexico.pdf)
-
 
 
 ¿Ven en el bajo relieve del Rey (Chalcatzingo, Morelos) algo profundamente evocativo para nuestro tema?
@@ -126,7 +130,7 @@ Para la colaboración que les estamos pidiendo habría que hacer, por favor, lo 
 
 [Los Altépetl](Referencias/539_R_08_historicidad_c.pdf)
 
-[¿Cómo eran las condiciones climáticas en la vida de Miguel decervantes?](Referencias/clima%20durante%20vida%20de%20Miguel%20de%20Cervantes.pdf)
+[¿Cómo eran las condiciones climáticas en la vida de Miguel de cervantes?](Referencias/clima%20durante%20vida%20de%20Miguel%20de%20Cervantes.pdf)
 
 [El altepetl nahua como paisaje](Referencias/Dialnet-ElAltepetlNahuaComoPaisaje-7425612.pdf)
 
